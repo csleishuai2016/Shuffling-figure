@@ -1,0 +1,83 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "微软雅黑";
+}
+
+.main{
+	width: 1200px;
+	height: 520px;
+	margin: 50px auto;
+}
+
+/*选项卡*/
+
+.tab-control{
+	width: 100%;
+	height: 60px;
+	overflow: hidden;
+}
+
+.tab-control>span{
+	display: block;
+	float: left;
+	width: 299.5px;
+	height: 59px;
+	text-align: center;
+	line-height: 59px;
+	font-size: 18px;
+	font-weight: 800;
+	border-radius: 5px;
+	border-top: 1px dashed #bababa;
+	color: #666;
+	cursor: pointer;
+}
+
+.tab-control>span:first-child{
+	border-left: 1px dashed #bababa;
+}
+
+.tab-control>span:last-child{
+	border-right: 1px dashed #bababa;
+}
+
+.tab-control>span.active{
+	background-color: #ffcc00;
+}
+
+/*轮播图*/
+.image-content{
+	width: 1200px;
+	height: 460px;
+	overflow: hidden;
+}
+
+.image-item{
+	display: none;
+	float: left;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+.image1{
+	background-image: url(../img/1.jpg);
+}
+
+.image2{
+	background-image: url(../img/2.jpg);
+}
+
+.image3{
+	background-image: url(../img/3.jpg);
+}
+
+.image4{
+	background-image: url(../img/4.jpg);
+}
+
+.slice{
+	display: block;
+}
+
