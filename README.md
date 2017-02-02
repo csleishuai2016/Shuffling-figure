@@ -12,4 +12,4 @@
      4、当图片发生轮播切换时，在不点击选项卡的前提下，相应的选项卡背景颜色也自动发生变化。
 
 
-
+Demo:  https://htmlpreview.github.io/?https://github.com/csleishuai2016/Shuffling-figure/blob/master/index.html (图片过大，有可能加载不出图片)
